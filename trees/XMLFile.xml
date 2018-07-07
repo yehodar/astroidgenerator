@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<games>
+  <idCounter>32</idCounter>
+  <game id="1" code="1000" name="זיהוי של סרטי דיסני" published="false" publishoption="false" category="סרטים השייכים לדיסני">
+  </game>
+  <game id="2" code="1001" name="משחק לזיהוי חיות שנעלמו מהטבע" published="false" publishoption="true" category="בעלי חיים">
+    <item id="5" type="pic" correct="true">
+      <content>zvi.jpg</content>
+    </item>
+    <item id="7" type="pic" correct="true">
+      <content>dishon.jpg</content>
+    </item>
+    <item id="10" type="pic" correct="true">
+      <content>hipo.jpg</content>
+    </item>
+    <item id="11" type="pic" correct="false">
+      <content>mina.jpg</content>
+    </item>
+    <item id="12" type="pic" correct="false">
+      <content>fish.jpg</content>
+    </item>
+    <item id="13" type="text" correct="false">
+      <content>גירית</content>
+    </item>
+    <item id="14" type="text" correct="false">
+      <content>לוטרה אירופאית</content>
+    </item>
+    <item id="15" type="text" correct="false">
+      <content>ג'אמוס</content>
+    </item>
+    <item id="16" type="text" correct="false">
+      <content>ראם לבן</content>
+    </item>
+    <item id="18" type="text" correct="false">
+      <content>עיעכע</content>
+    </item>
+    <item id="19" type="text" correct="false">
+      <content>איש</content>
+    </item>
+    <item id="20" type="text" correct="false">
+      <content>דדד</content>
+    </item>
+    <item id="22" type="text" correct="false">
+      <content>dfgd</content>
+    </item>
+    <item id="23" type="pic" correct="true">
+      <content>imageNewName06_07_18 - 12_17_24.png</content>
+    </item>
+    <item id="24" type="pic" correct="true">
+      <content>imageNewName06_07_18 - 12_17_34.png</content>
+    </item>
+    <item id="25" type="pic" correct="true">
+      <content>imageNewName06_07_18 - 12_17_44.png</content>
+    </item>
+    <item id="26" type="pic" correct="true">
+      <content>imageNewName06_07_18 - 12_34_59.png</content>
+    </item>
+    <item id="27" type="pic" correct="true">
+      <content>imageNewName06_07_18 - 12_35_03.png</content>
+    </item>
+    <item id="28" type="pic" correct="true">
+      <content>imageNewName06_07_18 - 12_35_10.png</content>
+    </item>
+    <item id="29" type="pic" correct="true">
+      <content>imageNewName06_07_18 - 12_35_15.png</content>
+    </item>
+    <item id="30" type="pic" correct="true">
+      <content>imageNewName06_07_18 - 12_35_22.png</content>
+    </item>
+  </game>
+</games>
