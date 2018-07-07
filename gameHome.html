@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <title>ארוחת אסטרואידים</title>
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <script src="script/JavaScript.js" type="text/javascript"></script>
+	
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <meta name="description" content="ארוחת אסטרואידים - משחק לימודי לזיהוי פריטים השייכים לקטגוריה" />
+    <meta name="keywords" content="משחק, לימודי, למידה, משחקים לימודיים" />
+    <meta name="author" content="מורן נהור, יהודר שוץ" />
+</head>
+<body>
+    <div id="gameHomeContainer">
+        <!--תפריט ניווט עליון-->
+        <div id="topToolbar">
+                      
+            <a href="#" onclick="TogglePopup('instructionPopupDarkScreen','block')">איך משחקים?</a>
+            <a href="#" onclick="changeInfoPopup('block')">אודות</a>
+            <a href="generatorLogin.aspx">עורך</a>
+        </div>
+        <a href="gameHome.html" id="gameLogoLink"></a>
+        <!--הטמעת המשחק-->
+        <div id="gameIframeDiv">
+            <iframe id="gameIframe" src="astoids.html" frameBorder="0" allowfullscreen="">Browser not compatible.</iframe>
+        </div>
+        <!--חלונית אודות-->
+        <div id="infoPopupDarkScreen">
+            <div id="infoPopup">
+                <a href="http://www.hit.ac.il/telem/overview" target="_blank"><img src="images/logoHIT.png" /></a>
+                <a href="http://www.hit.ac.il/telem/overview" target="_blank">פותח בפקולטה לטכנולוגיות למידה, מכון טכנולוגי חולון</a>
+                <p>המחולל נוצר ע"י מורן נהור ויהודר שוץ.</p>
+                <p>במסגרת קורס סביבות לימוד אינטראקטיביות 2, תכנות 2 ו-תכנות אינטראקטיבי 2.</p>
+                <p>יוני 2018</p>
+                <p>
+                    מורן - moran@nahor.org‏  ||
+                    יהודר - yehodar.s@gmail.com
+
+                </p>
+            </div>
+            <img src="images/ex.png" id="infoPopupCloseBTN" onclick="changeInfoPopup('none')" />
+        </div>
+
+        <!--חלונית הוראות-->
+        <div id="instructionPopupDarkScreen"  onclick="TogglePopup('instructionPopupDarkScreen', 'none')">
+            <div id="instructionPopup">
+                <div id="instructionPopupimg">
+                    <img src="images/instruction_only.jpg" id="instructionPopupImage"/>
+                </div>
+                <br />
+            </div>
+            <img src="images/ex.png" id="instructionPopupCloseBTN" onclick="TogglePopup('instructionPopupDarkScreen', 'none')" />
+        </div>
+
+    </div>
+</body>
+</html>
